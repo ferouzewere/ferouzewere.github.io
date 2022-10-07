@@ -785,6 +785,19 @@ section .container {
   color: #fff;
 }
 
+/* #hire{
+  background: #86C232;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+
+.services .container #hire:hover{
+  scale: 1.05;
+  background: #15bb62;
+} */
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -1151,7 +1164,7 @@ section .container {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #18d26e;
+  background: #86C232;
   border: 0;
   padding: 10px 30px;
   color: #fff;
