@@ -1,5 +1,5 @@
 const items = [
-    'I am a Creative,',
+    'A Creative,',
     'Web Developer,',
     '&',
     'Graphic Designer',
