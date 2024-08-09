@@ -1,8 +1,8 @@
 const items = [
-    'A Creative,',
-    'Web Developer,',
+    'A Freelance',
+    'Graphic Designer,',
     '&',
-    'Graphic Designer',
+    'Web Developer',
     'based in Nairobi, KENYA.'
 ]
 const app = document.getElementById('app')
