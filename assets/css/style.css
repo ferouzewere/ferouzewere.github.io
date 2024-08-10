@@ -14,7 +14,7 @@ body {
 body::before {
   content: "";
   /* position: fixed; */
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #040404 url("../img/bg-1.jpg") top right no-repeat;
   background-size: cover;
   filter: blur(2px);
   -webkit-filter: blur(2px);
