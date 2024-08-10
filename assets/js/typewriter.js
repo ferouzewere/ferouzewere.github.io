@@ -1,6 +1,5 @@
 const items = [
-    'A Freelance',
-    'Graphic Designer,',
+    'A Freelance Graphic Designer,',
     '&',
     'Web Developer',
     'based in Nairobi, KENYA.'
