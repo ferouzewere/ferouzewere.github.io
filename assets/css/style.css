@@ -1258,11 +1258,11 @@ section .container {
 
 /* Typing Effect */
 
-.social-links {
+.socials {
   display: flex;
 }
 
-.social-links a {
+.socials a {
   justify-content: center;
   align-items: center;
   font-size: 18px;
