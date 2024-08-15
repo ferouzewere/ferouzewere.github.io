@@ -518,6 +518,10 @@ section .container {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+.skills {
+  margin-top: 20px;
+}
+
 .skills .progress {
   height: 60px;
   display: block;
