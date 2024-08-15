@@ -530,6 +530,7 @@ section .container {
   /* Centers the list vertically */
   padding: 20px;
   /* Optional padding around the container */
+  margin-bottom: 20px;
 }
 
 .tools-set {
