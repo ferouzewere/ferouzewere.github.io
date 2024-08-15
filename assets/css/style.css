@@ -1248,3 +1248,49 @@ section .container {
 .socials a:hover {
   color: #18d26e;
 }
+
+/* My Tools */
+
+.my-tools {
+  display: flex;
+  justify-content: center;
+  /* Centers the items horizontally */
+  align-items: center;
+  /* Centers the items vertically */
+}
+
+.tools-set {
+  display: flex;
+  justify-content: space-around;
+  /* Evenly distributes space between items */
+  align-items: center;
+  list-style: none;
+  /* Removes default list styling */
+  padding: 0;
+  /* Removes default padding */
+  margin: 0;
+  /* Removes default margin */
+  gap: 20px;
+  /* Adds consistent spacing between items */
+}
+
+.tools-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tools-items a {
+  display: block;
+  /* Ensures the anchor tag behaves as a block element */
+  text-align: center;
+}
+
+.tools-items img {
+  max-width: 50px;
+  /* Sets a maximum width for the images */
+  height: auto;
+  /* Maintains the aspect ratio of images */
+  display: block;
+  /* Removes any potential inline spacing issues */
+}
