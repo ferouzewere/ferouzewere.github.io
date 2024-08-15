@@ -525,17 +525,17 @@ section .container {
 .my-tools {
   display: flex;
   justify-content: center;
-  /* Centers the items horizontally */
+  /* Centers the list horizontally */
   align-items: center;
-  /* Centers the items vertically */
+  /* Centers the list vertically */
   padding: 20px;
   /* Optional padding around the container */
 }
 
 .tools-set {
   display: flex;
-  justify-content: space-around;
-  /* Evenly distributes space between items */
+  justify-content: center;
+  /* Centers the items horizontally */
   align-items: center;
   list-style: none;
   /* Removes default list styling */
@@ -566,8 +566,9 @@ section .container {
   /* Sets the image height to a mid-sized icon */
   display: block;
   /* Removes any potential inline spacing issues */
+  object-fit: cover;
+  /* Ensures the image covers the set dimensions without distortion */
 }
-
 
 /*--------------------------------------------------------------
 # Interests
