@@ -525,12 +525,11 @@ section .container {
 .my-tools {
   display: flex;
   justify-content: center;
-  /* Centers the list horizontally */
+  /* Centers the items horizontally */
   align-items: center;
-  /* Centers the list vertically */
+  /* Centers the items vertically */
   padding: 20px;
   /* Optional padding around the container */
-  margin-bottom: 20px;
 }
 
 .tools-set {
@@ -546,6 +545,8 @@ section .container {
   /* Removes default margin */
   gap: 20px;
   /* Adds consistent spacing between items */
+  flex-wrap: wrap;
+  /* Allows items to wrap to the next line on smaller screens */
 }
 
 .tools-items {
@@ -562,9 +563,9 @@ section .container {
 
 .tools-items img {
   width: 64px;
-  /* Sets the image width to a mid-sized icon */
+  /* Default icon size */
   height: 64px;
-  /* Sets the image height to a mid-sized icon */
+  /* Default icon size */
   display: block;
   /* Removes any potential inline spacing issues */
   object-fit: cover;
