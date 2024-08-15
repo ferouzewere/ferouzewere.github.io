@@ -1260,6 +1260,7 @@ section .container {
 
 .socials {
   display: flex;
+  margin-top: 20px;
 }
 
 .socials a {
