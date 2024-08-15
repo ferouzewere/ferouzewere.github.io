@@ -582,9 +582,9 @@ section .container {
 
 @media (max-width: 480px) {
   .tools-items img {
-    width: 32px;
+    width: 38px;
     /* Smallest icon size for mobile screens */
-    height: 32px;
+    height: 38px;
   }
 }
 
