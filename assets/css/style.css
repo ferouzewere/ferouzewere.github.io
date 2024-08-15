@@ -767,6 +767,7 @@ section .container {
 
 .resume-item .bio-text {
   font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
 }
 
 /*--------------------------------------------------------------
