@@ -665,6 +665,10 @@ section .container {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.resume {
+  margin-top: 20px;
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
