@@ -570,6 +570,23 @@ section .container {
   /* Ensures the image covers the set dimensions without distortion */
 }
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .tools-items img {
+    width: 48px;
+    /* Smaller icon size for tablets and small screens */
+    height: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tools-items img {
+    width: 32px;
+    /* Smallest icon size for mobile screens */
+    height: 32px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Interests
 --------------------------------------------------------------*/
