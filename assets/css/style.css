@@ -1261,7 +1261,6 @@ section .container {
 .socials {
   display: flex;
   margin-top: 20px;
-  margin: 5px 0 0 68px;
 }
 
 .socials a {
