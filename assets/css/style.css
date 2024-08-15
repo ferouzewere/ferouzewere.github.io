@@ -1272,3 +1272,7 @@ section .container {
   line-height: 1;
   margin-right: 12px;
 }
+
+.socials a:hover {
+  color: #18d26e;
+}
