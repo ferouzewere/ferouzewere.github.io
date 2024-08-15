@@ -1257,3 +1257,13 @@ section .container {
 }
 
 /* Typing Effect */
+
+.social-links {
+  display: flex;
+}
+
+.social-links a {
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
